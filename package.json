@@ -1,11 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
-  "engines": {
-    "node": "8.9.4",
-    "npm": "5.6.0"
-  },
+  "description": "Super Barebones Full-Stack Example",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
