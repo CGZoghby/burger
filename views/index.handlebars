@@ -10,7 +10,7 @@
       <h2>Borgers to Nom</h2>
       <ul>
         {{#each burgers}} {{#unless devoured}}
-        <li>{{burger_name}}
+        <li>{{this.id}}. {{burger_name}}
           <button class="eat-burger" data-id="{{this.id}}">DEVOUR!</button>
         </li>
         {{/unless}} {{/each}}
@@ -21,7 +21,7 @@
       <h2>Nommed Borgers</h2>
       <ul>
         {{#each burgers}} {{#if devoured}}
-        <li>{{burger_name}}</li>
+        <li>{{this.id}}. {{burger_name}}</li>
         {{/if}} {{/each}}
       </ul>
     </div>
